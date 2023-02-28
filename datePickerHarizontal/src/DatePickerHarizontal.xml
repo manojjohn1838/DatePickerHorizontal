@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="mx techies.datepickerharizontal.DatePickerHarizontal"
+    pluginWidget="true"
+    needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
+    <name>Date Picker Harizontal</name>
+    <description
+    >Horizontal Date Picker is a Customizable Date Picker With Selectable Span of Dates with rich styling</description>
+    <icon
+    >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</icon>
+    <properties>
+        <propertyGroup caption="General">
+            <property key="scrollable" type="boolean" defaultValue="false">
+                <caption>Is Scrollable</caption>
+                <description>Make Your Custom Date Picker Scrollable With This Boolean</description>
+            </property>
+            <systemProperty key="Label" />
+            <property key="dateAttribute" type="attribute" onChange="onValueChange">
+                <caption>Date Attribute</caption>
+                <description>The Resultant Date Value Attribute</description>
+                <attributeTypes>
+                    <attributeType name="DateTime" />
+                </attributeTypes>
+            </property>
+            <property key="days" type="integer" defaultValue="10">
+                <caption>Number of Days</caption>
+                <description>Provide a Number of Days Integer Value</description>
+            </property>
+            <systemProperty key="Visibility" />
+        </propertyGroup>
+        <propertyGroup caption="Events">
+            <property key="onClickAction" type="action">
+                <caption>On click</caption>
+                <description>Action to be performed when button is clicked</description>
+            </property>
+            <property key="onValueChange" type="action">
+                <caption>On change</caption>
+                <description />
+            </property>
+        </propertyGroup>
+        <!-- <propertyGroup caption="Common">
+        <systemProperty key="Editability" />
+            
+        </propertyGroup> -->
+    </properties>
+</widget>
